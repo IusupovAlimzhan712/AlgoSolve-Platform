@@ -1,0 +1,231 @@
+
+✅ 1. Step-by-Step Commands
+
+Java
+
+javac ./javaLang/MergeSortStep.java
+java javaLang/MergeSortStep ./dataset/dataset_sample_1000.csv 1 7
+
+javac ./javaLang/QuickSortStep.java
+java javaLang/QuickSortStep ./dataset/dataset_sample_1000.csv 1 7
+
+javac ./javaLang/BinarySearchStep.java
+java javaLang/BinarySearchStep ./output/quick_sort_1000.csv 2008864030,rdie
+java javaLang/BinarySearchStep ./output/quick_sort_1000.csv 123456789,rdie
+
+Python
+
+python pythonLang/merge_sort_step.py ./dataset/dataset_sample_1000.csv 1 7
+python pythonLang/quick_sort_step.py ./dataset/dataset_sample_1000.csv 1 7
+python pythonLang/binary_search_step.py ./output/quick_sort_1000.csv 2008864030,rdie
+python pythonLang/binary_search_step.py ./output/quick_sort_1000.csv 123456789,rdie
+
+------------------------------------------------------------
+
+✅ 2. Full Dataset Commands (10 sizes) 
+Sizes: [10_000, 50_000, 100_000, 250_000, 500_000, 1_000_000, 2_000_000, 5_000_000, 10_000_000, 20_000_000]
+
+Dataset: 10_000
+
+Java
+
+javac ./javaLang/MergeSort.java
+javac ./javaLang/QuickSort.java
+javac ./javaLang/BinarySearch.java
+
+java -Xmx2G -cp . javaLang.MergeSort ./dataset/dataset_10000.csv
+java -Xmx2G -cp . javaLang.QuickSort ./dataset/dataset_10000.csv
+java -Xmx2G -cp . javaLang.BinarySearch ./output/merge_sort_10000.csv
+
+Python
+
+python pythonLang/merge_sort.py ./dataset/dataset_10000.csv
+python pythonLang/quick_sort.py ./dataset/dataset_10000.csv
+python pythonLang/binary_search.py ./output/merge_sort_10000.csv
+
+------------------------------------------------------------
+
+Dataset: 50_000
+
+Java
+
+javac ./javaLang/MergeSort.java
+javac ./javaLang/QuickSort.java
+javac ./javaLang/BinarySearch.java
+
+java -Xmx2G -cp . javaLang.MergeSort ./dataset/dataset_50000.csv
+java -Xmx2G -cp . javaLang.QuickSort ./dataset/dataset_50000.csv
+java -Xmx2G -cp . javaLang.BinarySearch ./output/merge_sort_50000.csv
+
+Python
+
+python pythonLang/merge_sort.py ./dataset/dataset_50000.csv
+python pythonLang/quick_sort.py ./dataset/dataset_50000.csv
+python pythonLang/binary_search.py ./output/merge_sort_50000.csv
+
+------------------------------------------------------------
+
+Dataset: 100_000
+
+Java
+
+javac ./javaLang/MergeSort.java
+javac ./javaLang/QuickSort.java
+javac ./javaLang/BinarySearch.java
+
+java -Xmx2G -cp . javaLang.MergeSort ./dataset/dataset_100000.csv
+java -Xmx2G -cp . javaLang.QuickSort ./dataset/dataset_100000.csv
+java -Xmx2G -cp . javaLang.BinarySearch ./output/merge_sort_100000.csv
+
+Python
+
+python pythonLang/merge_sort.py ./dataset/dataset_100000.csv
+python pythonLang/quick_sort.py ./dataset/dataset_100000.csv
+python pythonLang/binary_search.py ./output/merge_sort_100000.csv
+
+------------------------------------------------------------
+
+Dataset: 250_000
+
+Java
+
+javac ./javaLang/MergeSort.java
+javac ./javaLang/QuickSort.java
+javac ./javaLang/BinarySearch.java
+
+java -Xmx2G -cp . javaLang.MergeSort ./dataset/dataset_250000.csv
+java -Xmx2G -cp . javaLang.QuickSort ./dataset/dataset_250000.csv
+java -Xmx2G -cp . javaLang.BinarySearch ./output/merge_sort_250000.csv
+
+Python
+
+python pythonLang/merge_sort.py ./dataset/dataset_250000.csv
+python pythonLang/quick_sort.py ./dataset/dataset_250000.csv
+python pythonLang/binary_search.py ./output/merge_sort_250000.csv
+
+------------------------------------------------------------
+
+Dataset: 500_000
+
+Java
+
+javac ./javaLang/MergeSort.java
+javac ./javaLang/QuickSort.java
+javac ./javaLang/BinarySearch.java
+
+java -Xmx2G -cp . javaLang.MergeSort ./dataset/dataset_500000.csv
+java -Xmx2G -cp . javaLang.QuickSort ./dataset/dataset_500000.csv
+java -Xmx2G -cp . javaLang.BinarySearch ./output/merge_sort_500000.csv
+
+Python
+
+python pythonLang/merge_sort.py ./dataset/dataset_500000.csv
+python pythonLang/quick_sort.py ./dataset/dataset_500000.csv
+python pythonLang/binary_search.py ./output/merge_sort_500000.csv
+
+------------------------------------------------------------
+
+Dataset: 1_000_000
+
+Java
+
+javac ./javaLang/MergeSort.java
+javac ./javaLang/QuickSort.java
+javac ./javaLang/BinarySearch.java
+
+java -Xmx2G -cp . javaLang.MergeSort ./dataset/dataset_1000000.csv
+java -Xmx2G -cp . javaLang.QuickSort ./dataset/dataset_1000000.csv
+java -Xmx2G -cp . javaLang.BinarySearch ./output/merge_sort_1000000.csv
+
+Python
+
+python pythonLang/merge_sort.py ./dataset/dataset_1000000.csv
+python pythonLang/quick_sort.py ./dataset/dataset_1000000.csv
+python pythonLang/binary_search.py ./output/merge_sort_1000000.csv
+
+------------------------------------------------------------
+
+Dataset: 2_000_000
+
+Java
+
+javac ./javaLang/MergeSort.java
+javac ./javaLang/QuickSort.java
+javac ./javaLang/BinarySearch.java
+
+java -Xmx2G -cp . javaLang.MergeSort ./dataset/dataset_2000000.csv
+java -Xmx2G -cp . javaLang.QuickSort ./dataset/dataset_2000000.csv
+java -Xmx2G -cp . javaLang.BinarySearch ./output/merge_sort_2000000.csv
+
+Python
+
+python pythonLang/merge_sort.py ./dataset/dataset_2000000.csv
+python pythonLang/quick_sort.py ./dataset/dataset_2000000.csv
+python pythonLang/binary_search.py ./output/merge_sort_2000000.csv
+
+------------------------------------------------------------
+
+Dataset: 5_000_000
+
+Java
+
+javac ./javaLang/MergeSort.java
+javac ./javaLang/QuickSort.java
+javac ./javaLang/BinarySearch.java
+
+java -Xmx2G -cp . javaLang.MergeSort ./dataset/dataset_5000000.csv
+java -Xmx2G -cp . javaLang.QuickSort ./dataset/dataset_5000000.csv
+java -Xmx2G -cp . javaLang.BinarySearch ./output/merge_sort_5000000.csv
+
+Python
+
+python pythonLang/merge_sort.py ./dataset/dataset_5000000.csv
+python pythonLang/quick_sort.py ./dataset/dataset_5000000.csv
+python pythonLang/binary_search.py ./output/merge_sort_5000000.csv
+
+------------------------------------------------------------
+
+Dataset: 10_000_000
+
+Java
+
+javac ./javaLang/MergeSort.java
+javac ./javaLang/QuickSort.java
+javac ./javaLang/BinarySearch.java
+
+java -Xmx2G -cp . javaLang.MergeSort ./dataset/dataset_10000000.csv
+java -Xmx2G -cp . javaLang.QuickSort ./dataset/dataset_10000000.csv
+java -Xmx2G -cp . javaLang.BinarySearch ./output/merge_sort_10000000.csv
+
+Python
+
+python pythonLang/merge_sort.py ./dataset/dataset_10000000.csv
+python pythonLang/quick_sort.py ./dataset/dataset_10000000.csv
+python pythonLang/binary_search.py ./output/merge_sort_10000000.csv
+
+------------------------------------------------------------
+
+Dataset: 20_000_000
+
+Java
+
+javac ./javaLang/MergeSort.java
+javac ./javaLang/QuickSort.java
+javac ./javaLang/BinarySearch.java
+
+java -Xmx2G -cp . javaLang.MergeSort ./dataset/dataset_20000000.csv
+java -Xmx2G -cp . javaLang.QuickSort ./dataset/dataset_20000000.csv
+java -Xmx2G -cp . javaLang.BinarySearch ./output/merge_sort_20000000.csv
+
+Python
+
+python pythonLang/merge_sort.py ./dataset/dataset_20000000.csv
+python pythonLang/quick_sort.py ./dataset/dataset_20000000.csv
+python pythonLang/binary_search.py ./output/merge_sort_20000000.csv
+
+------------------------------------------------------------
+
+✅ 3. Utils Command
+
+python utils/dataset_generator.py
+python utils/verify_sort.py
