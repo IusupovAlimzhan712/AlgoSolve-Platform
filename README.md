@@ -56,10 +56,10 @@ Future Improvements
 Right now the name `ada_assign2.0` = 🚩  
 Rename it before pushing:
 
-```bash
-👉 `algosolve-platform`  
-👉 or `algo-visualizer`
-```
+
+ algosolve-platform`  
+ or `algo-visualizer`
+
 
 This alone makes it go from:
 > “student homework”  
