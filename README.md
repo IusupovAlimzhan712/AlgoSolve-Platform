@@ -22,7 +22,7 @@ AlgoSolve Platform is a web-based application designed to implement, test, and a
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/algosolve-platform.git
----
+```
 2.Navigate to the project:
 cd algosolve-platform
 3. Run the application:
@@ -56,8 +56,10 @@ Future Improvements
 Right now the name `ada_assign2.0` = 🚩  
 Rename it before pushing:
 
+```bash
 👉 `algosolve-platform`  
 👉 or `algo-visualizer`
+```
 
 This alone makes it go from:
 > “student homework”  
